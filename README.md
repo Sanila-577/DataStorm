@@ -87,12 +87,14 @@ A Streamlit dashboard has been developed to:
 - Allow exploration of individual agent predictions.
 - Provide a downloadable CSV of the results.
 
+Check this out: https://huggingface.co/spaces/sanila-wijesekara/dashboard
+
 ---
 
 ## 📁 File Structure
 
 - `DeepCell.ipynb`: Main Jupyter notebook containing EDA, NILL agent prediction model, and agent performance clustering.
-- `notebooks/EDA.ipynb`: Dedicated Jupyter notebook for detailed Exploratory Data Analysis.
+- `EDA_notebook/EDA.ipynb`: Dedicated Jupyter notebook for detailed Exploratory Data Analysis.
 - `clustering.ipynb`: Jupyter notebook focused on the agent clustering analysis.
 - `dashboard/app.py`: Python script for the Streamlit dashboard.
 - `data/`: Directory containing datasets (e.g., `train_storming_round.csv`, `test_storming_round.csv`, `submission.csv`).
@@ -138,6 +140,8 @@ To start the Streamlit dashboard:
     streamlit run app.py
     ```
     The dashboard will open in your web browser.
+
+    Check this out: https://huggingface.co/spaces/sanila-wijesekara/dashboard
 
 ---
 
